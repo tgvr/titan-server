@@ -5,9 +5,6 @@ sudo apt -y upgrade
 # install essential packages
 sudo apt -y install build-essential gcc g++ make binutils software-properties-common git cmake pkg-config
 
-# install nvidia driver
-sudo apt -y install nvidia-headless-465 nvidia-utils-465
-
 # install zsh, oh-my-zsh, powerlevel10k
 sudo apt -y install zsh
 chsh -s $(which zsh)
